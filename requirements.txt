@@ -1,3 +1,4 @@
+git+https://github.com/ambition-study/ambition-labs.git@develop#egg=ambition_labs
 git+https://github.com/clinicedc/edc-action-item@develop#egg=edc_action_item
 git+https://github.com/clinicedc/edc-appointment.git@develop#egg=edc_appointment
 git+https://github.com/clinicedc/edc-base.git@develop#egg=edc_base
@@ -9,6 +10,7 @@ git+https://github.com/clinicedc/edc-form-validators.git@develop#egg=edc_form_va
 git+https://github.com/clinicedc/edc-identifier.git@develop#egg=edc_identifier
 git+https://github.com/clinicedc/edc-lab.git@develop#egg=edc_lab
 git+https://github.com/clinicedc/edc-lab-dashboard.git@develop#egg=edc_lab_dashboard
+git+https://github.com/clinicedc/edc-label.git@develop#egg=edc_label
 git+https://github.com/clinicedc/edc-list-data@develop#egg=edc_list_data
 git+https://github.com/clinicedc/edc-model-admin.git@develop#egg=edc_model_admin
 git+https://github.com/clinicedc/edc-metadata.git@develop#egg=edc_metadata
