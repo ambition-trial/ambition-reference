@@ -16,10 +16,10 @@ branches:
 
 install:
 - pip install --upgrade pip
-- pip install -e .
-- pip install -r requirements.txt
 - pip install flake8
 - pip install coveralls
+- pip install -e .
+- pip install -r requirements.txt
 
 before_script:
 - flake8 ambition_reference
