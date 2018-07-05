@@ -4,6 +4,7 @@ git+https://github.com/ambition-trial/ambition.git@develop#egg=ambition
 git+https://github.com/ambition-trial/ambition-metadata-rules.git@develop#egg=ambition_metadata_rules
 git+https://github.com/ambition-trial/ambition-rando.git@develop#egg=ambition_rando
 git+https://github.com/ambition-trial/ambition-ae.git@develop#egg=ambition-ae
+git+https://github.com/ambition-trial/ambition-sites.git@develop#egg=ambition-sites
 git+https://github.com/ambition-trial/ambition-subject.git@develop#egg=ambition_subject
 git+https://github.com/ambition-trial/ambition-prn.git@develop#egg=ambition-prn
 git+https://github.com/ambition-trial/ambition-screening.git@develop#egg=ambition-screening
