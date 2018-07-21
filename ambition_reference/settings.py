@@ -48,12 +48,19 @@ INSTALLED_APPS = [
     'django_revision.apps.AppConfig',
     'edc_appointment.apps.AppConfig',
     'edc_action_item.apps.AppConfig',
+    'edc_device.apps.AppConfig',
+    'edc_lab.apps.AppConfig',
+    'edc_metadata.apps.AppConfig',
+    'edc_offstudy.apps.AppConfig',
     'edc_protocol.apps.AppConfig',
     'edc_identifier.apps.AppConfig',
     'edc_timepoint.apps.AppConfig',
     'edc_reference.apps.AppConfig',
     'edc_visit_schedule.apps.AppConfig',
+    'ambition_prn.apps.AppConfig',
     'ambition_labs.apps.AppConfig',
+    'ambition_screening.apps.AppConfig',
+    'ambition_subject.apps.AppConfig',
     'ambition_visit_schedule.apps.AppConfig',
     'ambition_reference.apps.AppConfig',
 ]
@@ -147,9 +154,9 @@ DASHBOARD_URL_NAMES = {
 }
 
 EDC_SYNC_SERVER_IP = None
-EDC_SYNC_FILES_USER = None
-EDC_SYNC_FILES_REMOTE_HOST = None
-EDC_SYNC_FILES_USB_VOLUME = None
+DJANGO_COLLECT_OFFLINE_FILES_USER = None
+DJANGO_COLLECT_OFFLINE_FILES_REMOTE_HOST = None
+DJANGO_COLLECT_OFFLINE_FILES_USB_VOLUME = None
 
 if 'test' in sys.argv:
 
