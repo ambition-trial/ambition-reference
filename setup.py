@@ -25,6 +25,7 @@ setup(
     long_description=README,
     zip_safe=False,
     keywords='ambition',
+    install_requires=['edc_reference'],
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
