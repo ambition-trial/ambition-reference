@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'edc_metadata.apps.AppConfig',
     'edc_offstudy.apps.AppConfig',
     'edc_protocol.apps.AppConfig',
+    'edc_registration.apps.AppConfig',
     'edc_identifier.apps.AppConfig',
     'edc_timepoint.apps.AppConfig',
     'edc_reference.apps.AppConfig',
