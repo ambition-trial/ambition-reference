@@ -60,6 +60,7 @@ INSTALLED_APPS = [
     'edc_visit_schedule.apps.AppConfig',
     'ambition_prn.apps.AppConfig',
     'ambition_labs.apps.AppConfig',
+    'ambition_lists.apps.AppConfig',
     'ambition_screening.apps.AppConfig',
     'ambition_subject.apps.AppConfig',
     'ambition_visit_schedule.apps.AppConfig',
