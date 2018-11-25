@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'edc_device.apps.AppConfig',
     'edc_lab.apps.AppConfig',
     'edc_metadata.apps.AppConfig',
+    'edc_notification.apps.AppConfig',
     'edc_offstudy.apps.AppConfig',
     'edc_protocol.apps.AppConfig',
     'edc_registration.apps.AppConfig',
@@ -159,6 +160,9 @@ DJANGO_COLLECT_OFFLINE_SERVER_IP = None
 DJANGO_COLLECT_OFFLINE_FILES_USER = None
 DJANGO_COLLECT_OFFLINE_FILES_REMOTE_HOST = None
 DJANGO_COLLECT_OFFLINE_FILES_USB_VOLUME = None
+
+EMAIL_CONTACTS = {}
+EMAIL_ENABLED = False
 
 if 'test' in sys.argv:
 
