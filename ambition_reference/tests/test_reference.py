@@ -4,6 +4,5 @@ from edc_reference.site_reference import site_reference_configs
 
 
 class TestReference(TestCase):
-
     def test_(self):
-        site_reference_configs.registry
+        self.assertTrue(site_reference_configs.registry)
