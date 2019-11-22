@@ -21,8 +21,10 @@ DEFAULT_SETTINGS = DefaultTestSettings(
     SUBJECT_CONSENT_MODEL="ambition_subject.subjectconsent",
     SUBJECT_VISIT_MODEL="ambition_subject.subjectvisit",
     SUBJECT_REQUISITION_MODEL="ambition_subject.subjectrequisition",
-    RANDOMIZATION_LIST_PATH=join(
-        base_dir, app_name, "tests", "test_randomization_list.csv"),
+    ADVERSE_EVENT_APP_LABEL="ambition_ae",
+    EDC_RANDOMIZATION_LIST_MODEL="ambition_rando.randomizationlist",
+    EDC_RANDOMIZATION_LIST_FILE=join(
+        base_dir, app_name, "tests", "etc", "randomization_list.csv"),
     INSTALLED_APPS=[
         'django.contrib.admin',
         'django.contrib.auth',
@@ -36,6 +38,7 @@ DEFAULT_SETTINGS = DefaultTestSettings(
         'edc_appointment.apps.AppConfig',
         'edc_action_item.apps.AppConfig',
         'edc_adverse_event.apps.AppConfig',
+        'edc_dashboard.apps.AppConfig',
         'edc_device.apps.AppConfig',
         'edc_lab.apps.AppConfig',
         'edc_metadata.apps.AppConfig',
@@ -48,6 +51,7 @@ DEFAULT_SETTINGS = DefaultTestSettings(
         'edc_timepoint.apps.AppConfig',
         'edc_reference.apps.AppConfig',
         'edc_visit_schedule.apps.AppConfig',
+        'ambition_ae.apps.AppConfig',
         'ambition_prn.apps.AppConfig',
         'ambition_labs.apps.AppConfig',
         'ambition_lists.apps.AppConfig',
